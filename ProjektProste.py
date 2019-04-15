@@ -226,6 +226,7 @@ class AppWindow(QWidget):
                 ax.text(xbb, ybb, 'B  %d,%d' % (int(xbb),int(ybb)))
                 ax.text(xcc, ycc, 'C  %d,%d' % (int(xcc),int(ycc)))
                 ax.text(xdd, ydd, 'D  %d,%d' % (int(xdd),int(ydd)))
+                ax.text(xpp,ypp, 'P %d,%d' % (int(xpp),int(ypp)))
                 self.canvas.draw()
                 break
         
